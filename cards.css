@@ -1,0 +1,102 @@
+#logo{
+    width: 210px;
+    height: 120px;
+
+    position: relative;
+    left: 710px;
+}
+#team {
+    margin: 0 43%;
+    font-size: 35px;
+    text-decoration: black underline;
+}
+    #team2{
+        margin: 0 40%;
+        font-size: 35px;
+        text-decoration: black underline;
+}
+body{
+    background-image: url("bg.jpeg") ;
+    background-size: cover;
+}
+
+
+
+.card{
+    width: 200px;
+    height: 260px;
+    background-color: antiquewhite;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 2px 3px 18px black;
+    margin: 10px 10px 30px 20px  ;
+    transition: 1s;
+    color: black;
+    border-width: 1px;
+
+
+
+}
+img{
+    height: 60%;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+.desc{
+
+    padding: 0 5px 0 10px;
+}
+.card:hover {
+    box-shadow: 4px 6px 36px goldenrod;
+    transition: 0.2s;
+    transition-timing-function: ease-in-out;
+
+}
+#blackbeard:hover{
+    box-shadow: 4px 6px 36px black;
+    transition: 0.2s;
+    transition-timing-function: ease-in-out;
+    background-color: midnightblue;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-color: black;
+    border-width: 10px;
+    margin-top: 10px;
+    color: white;
+
+
+}
+
+.card:hover {
+    background-color: bisque;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-color: black;
+    border-width: 10px;
+    margin-top: 10px;
+
+}
+#luffy{
+    margin: 0 0 0 15%;
+}
+#robin{
+    margin: 0 0 0 15%;
+}
+#blackbeard{
+    margin: 0 0 0 15%;
+    
+}
+/*#all{
+    width: 1200px;
+    height: 600px;
+    border: black ;
+    border-width: 20px;
+    background-color: black;
+    position: relative;
+    left: 235px;
+}
+
+ */
+
+
+
